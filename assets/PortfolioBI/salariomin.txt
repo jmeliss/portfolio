@@ -1,0 +1,12 @@
+Fórmulas utilizadas:
+
+Valor Inicial / Valor Final: medidas DAX que isolam o menor e o maior ano da série (1994 e 2022), usando MIN/MAX sobre o campo Ano.
+% Crescimento Total: DIVIDE([Valor Final] - [Valor Inicial], [Valor Inicial]), o cálculo padrão de variação percentual — mede quantas vezes o valor final representa em relação ao inicial.
+
+Resultado: o salário mínimo cresceu 1.770,7% no período, saindo de R$ 64,79 para R$ 1.212,00 — um valor que reflete tanto reajustes reais de política salarial quanto o efeito acumulado da inflação ao longo de quase 30 anos.
+
+Por que um gráfico de funil (barras decrescentes)?
+Diferente de um gráfico de linha tradicional, o funil invertido por ano cria uma leitura visual imediata de "crescimento em cascata" — cada barra é proporcional ao valor daquele ano, e a progressão de baixo para cima (ou cronológica) comunica a aceleração do crescimento de forma mais intuitiva ao olhar, especialmente quando o objetivo é destacar a comparação entre extremos da série temporal.
+
+Por que o marcador (gauge)?
+O gauge resume a métrica mais importante — o crescimento total — em um único indicador visual de fácil leitura, sem exigir que o usuário calcule a diferença entre os extremos do funil mentalmente. Ele funciona como o "resumo executivo" do dashboard: quem olha rapidamente já entende a magnitude da mudança.

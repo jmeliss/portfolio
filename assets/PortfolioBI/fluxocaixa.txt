@@ -1,0 +1,10 @@
+Estrutura e métricas:
+
+Cards de resumo (Receita, Despesas, Saldo): totalizadores agregados que dão o panorama geral do período — R$ 14,63 Mi em receitas, R$ 9,12 Mi em despesas, resultando em R$ 5,51 Mi de saldo.
+Gráfico combinado (colunas + linha): as barras de Receita e Despesa por mês permitem comparação direta lado a lado, enquanto a linha de Saldo sobreposta mostra a tendência acumulada — uma combinação clássica para evidenciar tanto o volume mensal quanto a trajetória financeira ao longo do ano.
+Tabela de detalhamento: nível transacional (data, unidade, tipo, categoria, forma de pagamento, valor), essencial para auditoria e rastreabilidade dos números agregados.
+Análise das despesas (barras horizontais): ranking por categoria (RH, Operações, Impostos, Marketing, Tecnologia), facilitando identificar onde o dinheiro está sendo mais consumido.
+Composição da receita (donut): participação percentual entre Serviços e Vendas, quase equilibrada (50,76% vs. 49,24%), mostrando a diversificação das fontes de receita.
+
+Por que esse layout?
+A combinação de indicadores-resumo no topo, tendência temporal ao centro e detalhamento/composição na base segue o princípio de "visão geral → detalhe" (overview first, drill down as needed), muito usado em dashboards executivos: quem olha rapidamente entende a saúde financeira do negócio, e quem precisa investigar mais a fundo tem os dados granulares logo abaixo.

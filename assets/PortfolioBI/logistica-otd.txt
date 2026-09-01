@@ -1,0 +1,9 @@
+Estrutura e métricas:
+
+Evolução mensal OTD (linha): acompanha o percentual de entregas no prazo mês a mês contra uma meta fixa de 85%, tornando visível de imediato os períodos em que a operação ficou abaixo do esperado — como a queda acentuada a partir de outubro.
+Ranking Desvios (barras horizontais): hierarquiza os motivos de falha na entrega (Extravio, Avaria, Roubo de Carga, Endereço Incorreto, Recusa de Entrega), destacando que Extravio sozinho responde por 33,33% do total — um insight acionável para priorização de ações corretivas.
+Representatividade Entregas (mapa): visualização geográfica da concentração de entregas pelo Brasil, útil para identificar regiões de maior volume ou risco operacional.
+Análise de Causa Raiz (funil por transportadora): decompõe o OTD geral (78,97%) por transportadora individual, permitindo comparar performance entre parceiros logísticos (de SudesteCargo com 87,63% até NorteExpress com 67,29%).
+
+Por que esse modelo de gráfico e composição?
+A escolha de linha temporal + meta fixa é o padrão mais direto para métricas de SLA/performance, pois evidencia desvios de forma imediata sem exigir cálculo mental. Já a combinação de ranking (causas) + mapa (geografia) + funil por fornecedor (causa raiz) segue uma lógica investigativa: primeiro mostra o que está falhando, depois onde, e por fim quem é o responsável — uma estrutura de storytelling analítico que guia o olhar do que é geral para o específico, facilitando a tomada de decisão.
